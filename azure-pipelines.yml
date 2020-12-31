@@ -67,5 +67,5 @@ stages:
               StartupCommand: 'npm run start'
               ScriptType: 'Inline Script'
               InlineScript: |
-                pm2 serve /home/site/wwwroot/build --no-daemon
+                npm start
                 npm run build --if-present
